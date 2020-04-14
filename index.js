@@ -20,7 +20,7 @@ const getZenQuote = async ctx => {
     spinner.fail();
     throw e;
   }
-};
+}; 
 
 server(
   { log: "debug", env: "development" },
